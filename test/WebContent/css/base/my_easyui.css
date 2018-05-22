@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+.window, .window .window-body{border-color:#fff;}
+.icon-search{}
+/* .tree-title{margin-top:4px;} */
+.l-btn-disabled, .l-btn-disabled:hover{background:#e6e6e6;}
+.l-btn-disabled .l-btn-text{background:#e6e6e6;color:#c9c9c9;text-shadow: 1px 1px 2px #fff;}
+/*按钮更改样式*/
+.my_button .l-btn-plain{ font:12px/30px ''; border-radius:3px;  border:1px solid #dedede; height:30px; color:#999; margin-right:10px; padding:0 9px; width:70px;}
+.my_button .l-btn-plain:hover{ font:12px/32px ''; border-radius:3px;  border:none; height:32px; color:#fff; margin-right:10px; padding:0 10px; min-width:70px;}
+.my_button .l-btn-plain span{ font-size:12px;}
+.my_button .l-btn-plain .l-btn-left .l-btn-text{ height:100%; line-height:30px; margin-right:10px;}
+.my_button .l-btn-plain:after{ display:inline-block; height:100%;}
+.my_button .l-btn-plain .m-btn-downarrow{ width:0;}
+.my_add .l-btn-left .icon-help{ background-image:url(../../images/my_icons/add.png);}
+.my_add:hover .l-btn-left .icon-help{ background-image:url(../../images/my_icons/add_hover.png);}
+/* .my_button1 .l-btn-plain{ font:12px/30px ''; border-radius:3px; border:1px solid #dedede; height:30px; margin-right:10px; padding:0 9px; width:70px;}
+.my_button1 .l-btn-plain:hover{ font:12px/32px ''; border-radius:3px; border:none; height:32px; margin-right:10px; padding:0 10px; min-width:70px;} */
+.my_button1 .my_add{ font:12px/30px ''; border-radius:3px;  border:1px solid #dedede; height:30px; color:#999; margin-right:10px; padding:0 9px; width:70px;}
+.my_button1 .my_add:hover{ font:12px/32px ''; border-radius:3px;  border:none; height:32px; color:#fff; margin-right:10px; padding:0 10px; min-width:70px;}
+.my_button1 .my_add .l-btn-left .icon-help{ background-image:url(../../images/my_icons/add.png);}
+.my_button1 .my_add:hover .l-btn-left .icon-help{ background-image:url(../../images/my_icons/add_hover.png);}
+.my_button1 .l-btn-plain span{ font-size:12px;}
+.my_button1 .l-btn-plain .l-btn-left .l-btn-text{ height:100%; line-height:30px; margin-right:10px;}
+.my_button1 .l-btn-plain:after{ display:inline-block; height:100%;}
+.my_button1 .l-btn-plain .m-btn-downarrow{ width:0;}
+
+
+.my_button1 .my_copy{ font:12px/30px ''; border-radius:3px;  border:1px solid #dedede; height:30px; color:#999; margin-right:10px; padding:0 9px; width:70px;}
+.my_button1 .my_copy:hover{ font:12px/32px ''; border-radius:3px;  border:none; height:32px; color:#fff; margin-right:10px; padding:0 10px; min-width:70px;}
+.my_button1 .my_copy span{ font-size:12px;}
+.my_copy .l-btn-left .icon-help{ background-image:url(../../images/my_icons/copy.png);}
+.my_copy:hover .l-btn-left .icon-help{ background-image:url(../../images/my_icons/copy_hover.png);}
+
+
+
+.my_button1 .my_fash{ font:12px/30px ''; border-radius:3px; border:1px solid #dedede; height:30px; color:#999; margin-right:10px; padding:0 9px; width:70px;}
+.my_button1 .my_fash:hover{ font:12px/32px ''; border-radius:3px;border:none; height:32px; color:#fff; margin-right:10px; padding:0 10px; min-width:70px;}
+.my_button1 .my_fash span{ font-size:12px;}
+.my_fash .l-btn-left .icon-help{ background-image:url(../../images/my_icons/add_hover.png);}
+.my_fash:hover .l-btn-left .icon-help{ background-image:url(../../images/my_icons/add_hover.png);}
+/* .my_button1 .my_fash{ font:12px/30px ''; border-radius:3px; border:1px solid #dedede; height:30px; margin-right:10px; padding:0 9px; width:70px;}
+.my_button1 .my_fash:hover{ font:12px/32px ''; border-radius:3px; border:none; height:32px; margin-right:10px; padding:0 10px; min-width:70px;}
+.my_button1 .my_fash span{ font-size:12px;} */
+.my_button1 .my_export{ font:12px/30px ''; border-radius:3px;border:1px solid #dedede; height:30px; color:#999; margin-right:10px; padding:0 9px; width:70px;}
+.my_button1 .my_export:hover{ font:12px/32px ''; border-radius:3px; border:none; height:32px; color:#fff; margin-right:10px; padding:0 10px; min-width:70px;}
+.my_button1 .my_export span{ font-size:12px;}
+.my_export .l-btn-left .icon-help{ background-image:url(../../images/my_icons/export.png);}
+.my_export:hover .l-btn-left .icon-help{ background-image:url(../../images/my_icons/export_hover.png);}
+.icon-edit{background-image:url(../../images/my_icons/export.png);}
+.my_button1 .my_select{ font:12px/30px ''; border-radius:3px;  border:1px solid #dedede; height:30px; color:#999; margin-right:5px; padding:0 9px; width:60px;}
+.my_button1 .my_select:hover{ font:12px/32px ''; border-radius:3px;  border:none; height:32px; color:#fff; margin-right:5px; padding:0 10px; min-width:60px;}
+.my_button1 .my_select span{ font-size:12px;}
+.my_button1 .my_reset{ font:12px/30px ''; border-radius:3px;  border:1px solid #dedede; height:30px; color:#999; margin-right:5px; padding:0 9px; width:40px;}
+.my_button1 .my_reset:hover{ font:12px/32px ''; border-radius:3px;  border:none; height:32px; color:#fff; margin-right:5px; padding:0 10px; min-width:40px;}
+.my_button1 .my_reset span{ font-size:12px;}
+
+
+
+
+
+
+
+
+/*搜索更改样式*/
+.statuInquiry_search1 .searchbox{ border:1px solid #dedede; border-radius:3px;}
+.statuInquiry_search1 .textbox-focused{ border:1px solid #aacc4e; box-shadow:none;}
+.statuInquiry_search1 .textbox-focused a{ background-image:url(../../images/my_icons/del.png);}
+.statuInquiry_search1 .searchbox-button{background-image:none;width:20px;height:26px;}
+.statuInquiry_search1 .searchbox-button:hover{ background-image:url(../../images/my_icons/del.png);}
+
+#clear_s1 img{width:15px;height:15px;background-image:url(../../images/my_icons/search1.png);}
+#clear_s1 img:hover{width:15px;height:15px;background-image:url(../../images/my_icons/search1_hover.png);}
+
+
+.datagrid-row-over .operationItem #_update{background-position:-61px -28px;}
+.datagrid-row-over .operationItem #_update1{background-position:-61px -28px;}
+.datagrid-row-over .operationItem .update{background-position:-61px -28px;}
+.datagrid-row-over .operationItem .oprate{ background-position:-54px -84px;}
+.datagrid-row-over .operationItem .oprate1{ background-position:-54px -84px;}
+.datagrid-row-over .operationItem .oprate2{ background-position:-54px -84px;}
+.datagrid-row-over .operationItem .stop{background-position:-88px -27px;}
+.datagrid-row-over .operationItem .stop1{background-position:-88px -27px;}
+.datagrid-row-over .operationItem .print{ background-position:-27px -84px;}
+.datagrid-row-over .operationItem .delete{ background-position:-81px -84px;}
+.datagrid-row-over .operationItem #more{ background-position:-110px -84px;}
+.datagrid-row-over .operationItem .more1{ background-position:-110px -84px;}
+.datagrid-row-over .operationItem .more2{ background-position:-110px -84px;}
+.datagrid-row-over .operationItem .receive{ background-position:-168px -84px;}
+.datagrid-row-over .operationItem .return{ background-position:-139px -84px;}
+.datagrid-row-over .operationItem .strat{ background-position:0 -84px;}
+.datagrid-row-over .operationItem .jurisdiction{ background-position:-233px -84px;}
+.datagrid-row-over .operationItem .bill{ background-position:0px -134px;}
+.datagrid-row-over .operationItem .hang{ background-position:-34px -134px;}
+.datagrid-row-over .operationItem .fpcp{ background-position:-197px -131px;}
+.datagrid-row-over .operationItem .szzk{ background-position:-252px -131px;}
+.datagrid-row-over .operationItem span  .toexamine{display:inline-block; width:24px; height:24px; vertical-align:middle; margin:0 5px; background-image:url(../../../images/main/toexamine_hover.png); background-repeat:no-repeat; cursor:pointer;}
+.datagrid-row-over .operationItem .complaint{ background-position:-283px -141px;}
+.datagrid-row-over .operationItem .propelling{ background-position:-169px -142px;}
+.datagrid-row-over .operationItem .synch{ background-position:-225px -134px;}                   
+/*生效*/
+.datagrid-row-over .operationItem .effect{ background-position:-168px -85px;}
+.datagrid-row-over .operationItem .firm{ background-position:-169px -115px;}
+/*项目组   保存 取消 编辑 删除 */
+.datagrid-row-over .operationItem .edit_update{background-position:-61px -28px;}
+.datagrid-row-over .operationItem .edit_update_auth{background-position:-61px -28px;}
+.datagrid-row-over .operationItem .update{background-position:-61px -28px;}
+.datagrid-row-over .operationItem .edit_delete{ background-position:-290px -55px;}
+.datagrid-row-over .operationItem .edit_delete_auth{ background-position:-290px -55px;}
+.datagrid-row-over .operationItem .edit_save{background-position:-290px -84px;}
+.datagrid-row-over .operationItem .edit_save_auth{background-position:-290px -84px;}
+.datagrid-row-over .operationItem .edit_clean{background-position:-81px -84px;}
+.datagrid-row-over .operationItem .edit_clean_auth{background-position:-81px -84px;}
+.datagrid-row-over .operationItem .jgmx{ background-position:-110px -84px;}
+.datagrid-row-over .operationItem .preview{background-position:-318px -20px;}
+.datagrid-row-over .operationItem .phone{background-position:-345px -20px;}
+.datagrid-row-over .operationItem .edit_remake{background-position:-372px -20px;}
+.datagrid-row-over .operationItem .movegroup{background-position:-399px -20px;}
+/**form小按钮 */
+/* .operationItem{ width:auto;} */
+.operationItem span,.operationItem .delete,.operationItem span .preview,.operationItem span .phone,.operationItem em,.operationItem strong,.operationItem em.print,.operationItem span.complaint,.operationItem span.synch,.operationItem span.propelling,.operationItem span #more,.operationItem span .receive,.operationItem strong.return,.operationItem span .strat,.operationItem span .firm,.operationItem span .effect,.operationItem span .edit_remake,.operationItem span .movegroup{ display:inline-block; width:24px; height:24px; vertical-align:middle; margin:0 5px; background-image:url(../../images/main/reasonsIcon.png); background-repeat:no-repeat; cursor:pointer;}
+.operationItem span{ background-position:-60px 0;}
+.operationItem strong{ background-position:-54px -57px;}
+.operationItem em{ background-position:-88px 0px;}
+.operationItem .print{ background-position:-27px -58px;}
+.operationItem .delete{ background-position:-80px -58px;}
+.operationItem .delete:hover{ background-position:-81px -84px;}
+.operationItem #more{ background-position:-110px -58px;}
+.operationItem .more1{ background-position:-110px -58px;}
+.operationItem .more2{ background-position:-110px -58px;}
+.operationItem  .receive{ background-position:-168px -58px;}
+.operationItem .return{ background-position:-138px -58px;}
+.operationItem .strat{background-position:0 -57px;}
+.operationItem .jurisdiction{ background-position:-233px -55px;}
+.operationItem .bill{ background-position:4px -108px;}
+.operationItem .hang{ background-position:-30px -108px;}
+.operationItem .fpcp{ background-position:-196px -103px;}
+.operationItem .szzk{ background-position:-252px -106px;}
+.operationItem span  .toexamine{ display:inline-block; width:24px; height:24px; vertical-align:middle; margin:0 5px; background-repeat:no-repeat; cursor:pointer;}
+.operationItem .complaint{ background-position:-283px -113px;}
+.operationItem .propelling{ background-position:-141px -141px;}
+.operationItem .synch{ background-position:-226px -108px;}
+.operationItem .preview{background-position:-318px 5px;}
+.operationItem .phone{background-position:-345px 5px;}
+.operationItem .edit_remake{background-position:-372px 5px;}
+.operationItem .movegroup{background-position:-399px 5px;}
+/*生效 项目组 打钩*/
+.operationItem .effect{ background-position:-167px -56px;}
+.operationItem .firm{ background-position:-141px -115px;}
+.operationItem .edit_update{ background-position:-60px 0;}
+.operationItem .edit_update_auth{ background-position:-60px 0;}
+.operationItem .edit_delete{ background-position:-289px -26px;}
+.operationItem .edit_delete_auth{ background-position:-289px -26px;}
+.operationItem .edit_save{background-position:-260px -85px;}
+.operationItem .edit_save_auth{background-position:-260px -85px;}
+.operationItem .edit_clean{ background-position:-80px -58px;}
+.operationItem .edit_clean_auth{ background-position:-80px -58px;}
+.operationItem .jgmx{ background-position:-110px -58px;}
+.operationItem .true{ background-position:-68px -134px;}
+.operationItem .wrong{ background-position:-264px -24px;}
+/* .datagrid-header td.datagrid-header-over{ background-color:transparent;} */
+.datagrid-header{ font-weight:bold;}
+.datagrid-header .datagrid-cell span{ font-size:12px;font-weight: bolder;}
+.datagrid-cell,.datagrid-cell-group,.datagrid-header-rownumber,.datagrid-cell-rownumber{ font-size:12px; height:35px;line-height:35px;}
+/*表单下拉*/
+.my_combobox .panel-body-noheader{ border:none;}
+.my_combobox .textbox{ border-color:#dedede; border-radius:3px; box-shadow:none;}
+.my_combobox .textbox-focused{ border-color:#aacc4e;}
+.my_combobox .combotree{ border-color:#dedede; border-radius:3px; box-shadow:none;}
+.my_combobox .combotree-focused{ border-color:#aacc4e;}
+.my_combobox .combobox{ border-color:#dedede; border-radius:3px; box-shadow:none;}
+.my_combobox .combobox-focused{ border-color:#aacc4e;}
+.my_combobox .combo-arrow{ border-left:1px solid #dedede; background-image:url(../../images/my_icons/arrow.png); background-color:#fafafa;}
+.my_combobox .textbox .textbox-text{ height:18px; line-height:18px; color:#666; border-radius:0; border:none; font-size:12px; padding-left:7px;}
+.my_combobox .textbox-focused .textbox-text{ height:18px; line-height:18px; color:#666; border-radius:0; border:none; font-size:12px; padding-left:7px;}
+.combobox-item{ height:24px; font:12px/24px ''; padding-left:10px;}
+.combobox-item-selected{background: #84909c;color: #fff}
+.combobox-item-hover{color: #0e90d2;}
+.my_combobox .textbox .textbox-prompt {color: #aaa;}
+.my_submitClear .my_submit,.my_submitClear .my_clear,.my_submitClear .my_edit{ min-width:88px; font:14px/32px '';height:32px;margin-right:5px; border-radius:3px;}
+.my_submitClear .my_edit{ min-width:102px; font:14px/32px ''; border-radius:3px;color:#fff;}
+.my_submitClear .my_submit{ background:#ff503f; height:32px; border:none;}
+.my_submitClear .my_submit:hover{ background:#e33333;}
+
+.my_submit .l-btn-left .icon-help{ background-image:url(../../images/my_icons/add_hover.png);}
+.my_submit:hover .l-btn-left .icon-help{ background-image:url(../../images/my_icons/add_hover.png);} 
+
+/* .my_combobox .panel-body-noheader{ border:none;}
+.my_combobox .textbox{ border-color:#dedede; border-radius:3px; box-shadow:none;}
+.my_combobox .textbox-focused{ border-color:#aacc4e;}
+.my_combobox .combo-arrow{ border-left:1px solid #dedede; background-image:url(../../images/my_icons/arrow.png); background-color:#fafafa;}
+.my_combobox .textbox .textbox-text{ height:12px; line-height:18px; color:#666; border-radius:0; border:none; font-size:12px; padding-left:7px;}
+.my_combobox .textbox-focused .textbox-text{ color:#666; border:1px solid #dedede; background:#fafafa;}
+.combobox-item{ height:26px; font:12px/24px ''; padding-left:10px;}
+.combobox-item-selected,.combobox-item-hover{ color:#ff503f; background:#fff3f3;}
+.my_submitClear .my_submit,.my_submitClear .my_clear,.my_submitClear .my_edit{ min-width:88px; font:14px/32px ''; border-radius:3px;}
+.my_submitClear .my_edit{ min-width:110px; margin-right:15px; font:14px/32px ''; border-radius:3px;color:#fff;}
+.my_submitClear .my_submit{ background:#ff503f; height:32px; border:none;}
+.my_submitClear .my_submit:hover{ background:#e33333;}
+
+.my_submit .l-btn-left .icon-help{ background-image:url(../../images/my_icons/add_hover.png);}
+.my_submit:hover .l-btn-left .icon-help{ background-image:url(../../images/my_icons/add_hover.png);} 
+
+/*编辑*/
+.my_submitClear .my_edit{ background:#abcb4e; height:32px; border:none;}
+.my_submitClear .my_edit:hover{ background:#9fc142;}
+/*取消*/
+.my_submitClear .my_clear{ background:#fafafa; border:1px solid #dedede;}
+.my_submitClear .my_clear:hover{ background:#dedede;}
+.my_submitClear .my_clear .l-btn-text{ color:#999;}
+.my_submitClear .my_clear:hover .l-btn-text{ color:#999;}
+.my_submitClear .l-btn-text{ height:32px; font:12px/32px ''; }
+.my_submitClear .my_submit .l-btn-text{ color:#fff;}
+.my_submitClear .my_editt .l-btn-text{ color:#999;}
+
+
+.my_tree li div{ height:24px; line-height:24px;}
+
+
+.openshopbusiness-a :hover{text-decoration:none;color:#000; }
+
+::-webkit-scrollbar{width: 6px;height: 6px;}
+::-webkit-scrollbar-thumb{background-color: rgba(0,0,0,0.2);border-radius: 10px;-webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,0.1);}
+::-webkit-scrollbar-track{border-radius: 10px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);}
+
+.panel-noscroll{
+	overflow-y:hidden!important; 
+}
+.layout-panel-north{
+	overflow-y:hidden!important; 
+}
+.statuInquiry_search1{
+	overflow: hidden!important; 
+}
+/**
+	手机版自适应样式
+*/
+ @media screen and (max-width:400px){
+	::-webkit-scrollbar{width: 2px;height: 2px;}
+	::-webkit-scrollbar-thumb{background-color: rgba(0,0,0,0.2);border-radius: 2px;-webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,0.1);}
+	::-webkit-scrollbar-track{border-radius: 5px;-webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0);}
+}
+/* +号显示的问题 */
+.datagrid-row-expand{
+	display: -webkit-box !important;
+}
+/*easyui-datebox的日历格式*/
+.datebox .combo-arrow {width: 25px !important;  background: #fff url(../../js/base/My97DatePicker/skin/datePicker.png) no-repeat  !important;  background-position: center center;  margin-top: 3px;  border:none !important;  }
+
+
+/***套餐内替换明细按钮样式   start勿删！！！****/
+.datagrid-row-over .operationItem .thmx_edit_delete{ background-position:-290px -55px;}
+.operationItem .thmx_edit_delete{ background-position:-289px -26px;}
+
+.datagrid-row-over .operationItem .thmx_edit_save{background-position:-290px -84px;}
+.operationItem .thmx_edit_save{background-position:-260px -85px;}
+
+.datagrid-row-over .operationItem .thmx_edit_clean{background-position:-81px -84px;}
+.operationItem .thmx_edit_clean{ background-position:-80px -58px;}
+
+.datagrid-row-over .operationItem .thmx_edit_update{background-position:-61px -28px;}
+.operationItem .thmx_edit_update{ background-position:-60px 0;}
+/***套餐内替换明细按钮样式   end勿删！！！****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

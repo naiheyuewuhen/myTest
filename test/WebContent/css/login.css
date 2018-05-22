@@ -1,0 +1,435 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font: 12px/1.5 "Microsoft YaHei", tahoma, arial, Hiragino Sans GB, \5b8b\4f53;
+    overflow: hidden;
+}
+section {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+ul,
+li {
+	list-style: none;
+}
+img {
+	border: none;
+} 
+em {
+	font-style: normal;
+}
+a {
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	background-color:#fff;
+}
+.top{
+	width:1200px;
+	height: 50px;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.top_l{
+	float: left;
+}
+.top_l>span{
+	font-size:16px;
+	font-family: "黑体";
+	margin-left: 10px;
+}
+.top_l>i{
+	width: 80px;
+	height: 50px;
+	float: left;
+	display: inline-block;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+}
+.top_r{
+	float: right;	
+}
+.top_r>i{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 15px 10px;
+	display: inline-block;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+	background-image:url(../images/phone.svg);
+}
+
+/*head--------------------------end*/
+.blue{
+	width: 100%;
+	height:100%;
+	clear: both;
+	background-repeat: repeat;
+    background-position: center;
+    background-size:100%;
+	background-image:url(../images/bg.png);
+}
+.main{
+	width:1200px;
+	height:100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.main_l{
+	height:320px;
+	float: left;
+	top: 50%;
+	left: 10%;
+	position: absolute;
+	margin-top: -175px;
+	animation:main_l 3s 1;
+}
+.main_l>img{
+	height: 100%;
+}
+.main_r{
+	width: 240px;
+	height:300px;
+	padding: 0 30px;
+	background-color: #00559b;
+	float: right;
+	top: 50%;
+	right: 10%;
+	margin-top: -200px;
+	position: absolute;
+	animation: main_r 3s 1;
+}
+.phonecode{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-repeat: no-repeat;
+    background-position:center;
+    background-size:100%;
+	background-image: url(../images/login/code.png);
+}
+.phonecode.comp{
+	background-image: url(../images/login/comp.png);
+}
+.use_tab>li{
+	width: 50%;
+	text-align: left;
+	line-height: 60px;
+	float: left;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing:1px;
+	cursor: pointer;
+}
+.use_tab>li.this{
+	color: #00e499;
+}
+.put{
+	clear: both;
+	width: 100%;
+	position: relative;
+	top: 10px;
+}
+.put>div{
+	position: relative;
+	margin-top: 15px;
+}
+.put>div>input{
+	width: 100%;
+	height: 35px;	
+	text-indent: 40px;
+	background-repeat: no-repeat;
+    background-position:center left 10px;
+    background-size:20px;
+    border-radius: 2px;
+}
+.put>div>input.merchant_name{background-image: url(../images/login/sh.svg);margin-top: 0;}
+.put>div>input.use_name{background-image: url(../images/login/use.svg);}
+.put>div>input.password{background-image: url(../images/login/pass.svg);}
+.put>div>input.phone_num{background-image: url(../images/login/phone2.svg);
+	background-position:center left 6px;
+	background-size:25px;
+}
+.put>div>i{
+	position: absolute;
+	right:10px;
+	top: 10px;
+	width:15px;
+	height: 15px;	
+	display: none;
+	cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+	background-image:url(../images/login/cle.png);	
+}
+.codetext>i{
+	left: 40%;
+	top: 10px;
+}
+.put>div>input.code{
+	width: 50%;
+	height: 35px;
+	text-indent: 10px;
+	background-color: #fff;
+	border: 1px solid #0070bf;
+}
+.put>div>span{
+	width:40%;
+	height: 35px;
+	float: right;
+	text-align: center;
+	line-height: 35px;  
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;	
+	background-color: #00e499;
+	}	
+.put>div>span.fail{
+	color: #fff;
+	background-color: #ccc;
+}
+/*.put>div>span.suc{
+	color: #fff;	
+	background-color: #00e499;
+}*/
+.tag{
+	display: table;
+	background-color:#fff2d6;
+	border-radius: 3px;
+	position: relative;
+	padding: 3px 8px;
+	color: #f9ad2e;
+	font-size: 12px;
+	position: absolute;
+	left: 30px;
+	top:-24px;
+	z-index: 999;
+	display: none;
+}
+.tag>s{
+	height: 0px;
+	width: 0px;
+	display: block;
+	border-top: 10px solid #fff2d6;
+	border-right: 6px solid transparent;
+	border-left: 6px solid transparent;
+	position: absolute;
+	left: 30px;
+	bottom: -9px
+}
+.remember{
+	margin-top: 10px;
+	color: #fff;
+	line-height: 20px;
+	font-size: 14px;
+}
+.remember>em{
+	width: 16px;
+	height: 16px;
+	display:block;
+	float: left;
+	margin-top: 3px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+    background-position:center;
+    background-size:100%;
+	background-image: url(../images/fang.png);
+}
+.remember>em.cur{
+	background-image: url(../images/select.png);
+}
+.put>.login_btn{
+	width: 100%;
+	height: 35px;
+	margin-top: 30px;
+	text-align: center;
+	line-height: 35px;
+	color: #fff;	
+	font-size: 14px;
+	background-color: #00e499;
+}
+.put>.login_btn:hover{
+	cursor: pointer;
+	background-color:#00DE8B;
+}
+.codebox>div{
+	width: 150px;
+	height: 150px;
+	background-color: #fff;
+	margin: 80px auto 30px;
+}
+
+.codebox>p{
+	text-align: center;
+	color: #fff;
+}
+footer{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	clear: both;
+	background-color: #fff;
+}
+.foot{
+	width:1200px;
+	margin: 0 auto;
+	height: 100px;	
+}
+.foot_l{
+	float: left;
+}
+.foot_l>ul{
+	margin: 20px 0 15px;
+}
+.foot_l>ul>li{
+	display: inline-block;
+	padding:0 10px;
+	cursor: pointer;
+	font-size: 14px;
+	border-left: 1px solid #CCCCCC;
+}
+.foot_l>ul>li:nth-child(1){
+	padding-left: 0;
+	border-left:none;
+}
+.foot_l>p{
+	font-size: 12px;
+	color: #9299b1;	
+}
+.foot_l>p>a:nth-child(2){
+	padding-left: 20px;
+	margin-left: 10px;
+	display: inline-block;	
+	background-repeat: no-repeat;
+    background-position:center left;
+    background-size:15px;
+	background-image: url(../images/login/police.png);
+}
+.foot_r{
+	float: right;
+	margin-top: 30px;
+}
+.foot_r>li{
+	position: relative;
+	width: 122px;
+	height: 35px;
+	display: inline-block;
+	margin-left: 35px;
+	line-height: 35px;	
+	background-repeat: no-repeat;
+    background-position:center;
+    background-size:100%;
+	background-image: url(../images/login/ecode.png);
+}
+.foot_r>li>span{
+	width:100%;
+	height:100%;
+	display:block;
+	text-indent: 20px;
+}
+/* .foot_r>li:hover div{
+	display: block;
+	border: 1px solid #e0ded9;
+	border-bottom: none;
+	border-radius: 5px 5px 0 0;
+} */
+.foot_r>li>div{
+	width:100px;
+	height:100px;
+	padding: 10px;
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+	bottom: 28px;
+	display: none;
+}
+.foot_r>li>div>img{
+	width:100%;
+	height: 100%;
+}
+
+
+@keyframes main_l{
+	0% {left:-20%;}	
+	100% {left:10%;}
+}
+@keyframes main_r{
+	0% {right:-20%;}	
+	100% {right:10%;}
+}
+
+@media screen and (min-width: 1600px){
+	
+.main_l{
+	height:400px;
+	float: left;
+	top: 50%;
+	left: 0;
+	position: absolute;
+	margin-top: -225px;
+	animation:main_l 3s 1;
+}
+.main_l>img{
+	height: 100%;
+}
+.main_r{
+	width: 300px;
+	height:400px;
+	padding: 0 40px;
+	background-color: #00559b;
+	float: right;
+	top: 50%;
+	right: 0;
+	margin-top: -225px;
+	position: absolute;
+	animation: main_r 3s 1;
+}
+.put{
+	top:20px;
+}
+.use_tab>li{
+	line-height: 70px;
+}
+@keyframes main_l{
+	0% {left:-20%;}	
+	100% {left:0;}
+}
+@keyframes main_r{
+	0% {right:-20%;}	
+	100% {right:0;}
+}
+}
+
+
+@media screen and (max-width: 500px){
+	.main_r{
+		position: fixed;
+	    left: 50%;
+	    margin-left: -150px;
+	}
+	
+}

@@ -1,0 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body style="align-content: center;">
+<h1 align="center" style="color: #84909c;">欢迎光临</h1>
+<h1 align="center" style="color: #54956c;">工业智能数字平台（测试）即将上线</h1>
+</body>
+</html>

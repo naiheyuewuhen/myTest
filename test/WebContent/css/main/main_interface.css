@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*头部样式*/
+/*.header{ position:fixed; top:0; left:0; width:100%; background-color:#fff; z-index:3;}*/
+body{  min-width:1024px; min-height:100%;}
+.logo img{ width:120px; height:105px;}
+.header_cont{ margin-left:130px; padding:5px 15px 0 40px;overflow:hidden; position:relative;height:100px;}
+.user_info{ text-align:right; /* font:12px/1 */ ''; height:23px; color:#999;vertical-align: middle;}
+.user_info em{ margin:0 9px 0 5px;}
+
+.user_info .logout{background-image:url(../../images/main/signout.png)}
+.user_info .logout:hover{background-image:url(../../images/main/signout_hover.png)}
+ 
+
+.first_menu{ margin-right:20px;}
+.first_menu span{ font:20px/42px "Microsoft YaHei", "微软雅黑"!important;}
+
+.second_menu{ margin-right:5px;margin-top:2px;}
+.second_menu span{ font:14px/26px "Microsoft YaHei", "微软雅黑"!important;}
+
+.fourth_menu{ margin-right:5px;margin-top:2px;width: 120px;}
+.fourth_menu span{ font:12px/24px "Microsoft YaHei", "微软雅黑"!important;}
+
+
+
+.exit a{ color:#999; font:16px/24px "Microsoft YaHei", "微软雅黑"; position:absolute; top:-50px;height:24px; right:0px; bottom:20px;}
+.exit a span{ width:24px; height:24px; background:url(../../images/main/exit.png) 0 0 no-repeat; display:inline-block; vertical-align:middle; margin-right:5px;}
+.exit a em{ vertical-align:middle;font-weight: bolder;}
+
+/*内容*/
+/*.contain{ margin-top:130px;}*/
+.third_nav{ background:url(../../images/main/bg.png) left top repeat-y;}
+.third_nav .active{ visibility:visible;}
+.third_nav ul{ visibility:hidden; width:120px; padding-top:20px; text-align:center;}
+.third_nav li{ position:relative;}
+.third_nav li p{ height:90px; float:left; background-color:transparent; width:4px;}
+.third_nav li a{ margin-left:4px; display:block; height:55px; margin-bottom:8px; padding-top:10px; color:#777777;}
+.third_nav li span{ width:42px; height:42px; display:inline-block; background-repeat:no-repeat; background-image:url(../../images/main/man.png);} 
+
+/* .third_nav li span{height:42px; width:42px; display:inline-block; background-position:0 0; background-repeat:no-repeat;vertical-align:middle}; */
+
+
+.third_nav li em{ font:14px/1 "Microsoft YaHei", "微软雅黑";}
+.third_nav li i{ display:inline-block; height:2px; width:80px; background:url(../../images/main/more.png) left top no-repeat; margin-bottom:8px;}
+
+.fourth_nav{ display:none; position:absolute; top:-8px;min-height:190px; left:100%; width:106px; border-style:solid; padding:10px 15px 0; background-color:#fafafa; border-width:5px 1px 1px 0; border-color: #24292f #dddddd #dddddd transparent; z-index:5;}
+.fourth_nav dd{text-align:left; margin-bottom:15px;}
+.fourth_nav dd a{ margin-left:0; display:inline; height:auto; margin-bottom:0; padding-top:0; padding-right:5px; color:#666; font:12px/1 "Microsoft YaHei", "微软雅黑";}
+
+
+
+.data_contain{ margin-left:130x; height:38px;}
+.data_contain_nav{ padding-top:3px; background-color:#eee;height: 35px}
+.data_nav{ margin-bottom:-1px;}
+.data_contain_content{ position:relative; height:36px;overflow:hidden;}
+.data_contain_content ul{ position:absolute; top:0; left:0;}
+.data_contain_content li{ float:left; margin-right:5px;border:1px solid #dedede; margin-bottom:-1px; background:#fafafa;}
+.data_contain_content .data_active{ border-bottom:2px solid #fff; background-color:#fff;}
+.data_contain_content .data_active a{ border-top-color:#FF4F3F; color:#666;}
+.data_contain_content a{ color:#999; display:inline-block; height:31px; padding:0 6px; font:12px/31px "Microsoft YaHei", "微软雅黑"; border-width:2px 2px 0; border-style:solid; border-color:#A9CB4D #fafafa #fff; cursor:default;}
+.prev_btn,.next_btn{ width:13px; border-top:none; height:33px; cursor:pointer; background-color:#fafafa; border:1px solid #dedede; margin-bottom:-1px; /* display:none; */ line-height:33px; text-align:center;}
+.next_btn{display:none;}
+.prev_btn i,.next_btn i{ display:inline-block; width:4px; height:7px; background-image:url(../../images/main/reasonsIcon.png); background-repeat:no-repeat;}
+.prev_btn i{ background-position:-223px -16px;}
+.next_btn i{ background-position:-237px -16px;}
+.prev_btn:hover,.next_btn:hover{ background-color:#fff;}
+.prev_btn:hover i{ background-position:-230px -16px;}
+.next_btn:hover i{ background-position:-244px -16px;}
+.data_nav em{ width:7px; height:7px; vertical-align:middle; display:inline-block; background:url(../../images/main/close.png) 0 0 no-repeat; cursor:pointer;}
+.data_nav em:hover{ background-position:0 -50px;}
+.data_nav span{ vertical-align:middle; margin-right:10px; cursor:pointer; display:inline-block; height:100%;}
+
+
+
+.icon-down{
+	background:url(../../images/my_icons/down.png) no-repeat center center;
+}
+.icon-up{
+	background:url(../../images/my_icons/up.png) no-repeat center center;
+}
+
+
+.icon-dropdown{
+	background:url(../../images/my_icons/dropdown.png) no-repeat center center;
+}
+.icon-fullscreen{
+	background:url(../../images/my_icons/fullscreen.png) no-repeat center center;
+
+}
+.icon-recovery{
+	background:url(../../images/my_icons/recovery.png) no-repeat center center;
+}
+.icon-refresh{
+	background:url(../../images/my_icons/refresh.png) no-repeat center center;
+}
+
+
+
+.icon-callcenter{
+	background-image:url(../../images/main/callcenter.png);
+	background-position:  0px 0px;
+}
+
+.icon-logistics{
+	background-image:url(../../images/main/logistics.png);
+	background-position:  0px 0px;
+}
+
+.icon-reception{
+	background-image:url(../../images/main/reception.png);
+	background-position:  0px 0px;
+}
+
+.icon-report{
+	background-image:url(../../images/main/report.png);
+	background-position:  0px 0px;
+}
+
+.icon-system{
+	background-image:url(../../images/main/system.png);
+	background-position:  0px 0px;
+}
+.icon-crmadmin{
+	background-image:url(../../images/main/crmadmin.png);
+	background-position:  0px 0px;
+}
+.icon-store{
+	background-image:url(../../images/main/store.png);
+	background-position:  0px 0px;
+}
+
+.icon-data{
+	background-image:url(../../images/main/data.png);
+	background-position:  0px 0px;
+}
+
+
+.first-icon-hover{
+	background-position: 0px -56px!important;
+}
+
+.first-text-hover{
+	color : #fd9b00;
+}
+
+
+
+.third-icon-hover{}
+.third-icon-hover span{background-position: 0px 0px!important;}
+.third-icon-hover p{background-color: #FF4F3F!important;}
+.third-icon-hover a{color: #fff!important;}
+
+
+
+
+
+
+
+
+.first-menu-new{
+	 margin-right:20px;
+	 background: none!important;
+	 color: white;
+}
+.l-btn-plain-selected .icon-new-report,.l-btn-plain-selected .icon-new-system,.l-btn-plain-selected .icon-new-crmadmin,.l-btn-plain-selected .icon-new-store,.l-btn-plain-selected .icon-new-data{
+	background-position:  0px 0px;
+}
+.first-menu-new span{ font:20px/42px "Microsoft YaHei", "微软雅黑"!important;}
+
+
+.second-menu-new {
+	margin-right: 5px;
+	margin-top: 2px;
+	border-radius: 20px 20px 20px 20px !important;
+	margin: 0px!important;
+}
+
+.second-menu-new span {
+	font: 14px/20px "Microsoft YaHei", "微软雅黑" !important;
+}
+.third-nav-new{
+	background:#2d3e50;
+}
+.third-nav-new .active{ visibility:visible;}
+.third-nav-new ul{ visibility:hidden; width:120px; padding-top:20px; text-align:left;}
+.third-nav-new li{ position:relative;cursor: default;height:50px;}
+.third-nav-new li p{ height:90px; float:left; background-color:transparent; width:4px;}
+.third-nav-new li a{ margin-left:4px; display:block; margin-bottom:8px; padding-top:10px; color:#777777;}
+.third-nav-new li span{ width:14px; height:14px; display:inline-block; background-repeat:no-repeat; background-image:url(../../images/main/man.png);} 
+.third-nav-new li em{ font:14px/1 "Microsoft YaHei", "微软雅黑";}
+.third-nav-new li i{ display:inline-block; height:2px; width:80px; background:url(../../images/main/more.png) left top no-repeat; margin-bottom:8px;}
+
+.third-icon-new-hover{background-color: #fd9b00!important;}
+.third-icon-new-hover span{background-position: 0px -14px!important;}
+.third-icon-new-hover p{background-color: #FF4F3F!important;}
+.third-icon-new-hover a{color: #fff!important;}
+
+
+.icon-new-callcenter{
+	background-image:url(../../images/main_new/callcenter.png);
+	background-position:  0px -112px;
+}
+
+.icon-new-logistics{
+	background-image:url(../../images/main/logistics.png);
+	background-position:  0px -112px;
+}
+
+.icon-new-reception{
+	background-image:url(../../images/main_new/reception.png);
+	background-position:  0px -112px;
+}
+
+.icon-new-report{
+	background-image:url(../../images/main_new/report.png);
+	background-position:  0px -112px;
+}
+
+.icon-new-system{
+	background-image:url(../../images/main_new/system.png);
+	background-position:  0px -112px;
+}
+.icon-new-crmadmin{
+	background-image:url(../../images/main_new/crmadmin.png);
+	background-position:  0px -112px;
+}
+.icon-new-store{
+	background-image:url(../../images/main_new/store.png);
+	background-position:  0px -112px;
+}
+
+.icon-new-data{
+	background-image:url(../../images/main_new/data.png);
+	background-position:  0px -112px;
+}
+
+
+
+
+

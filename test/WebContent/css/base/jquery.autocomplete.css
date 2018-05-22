@@ -1,0 +1,99 @@
+.acInput {
+}
+
+.acResults {
+	padding: 0px;
+	border: 1px solid #aaa;
+	background-color: #fff;
+	overflow: hidden;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+	z-index:10000;
+}
+
+.acResults .x-combo-list-inner {
+	margin: 0;
+}
+
+.acResults .x-combo-list-item {
+	margin: 0px;
+	cursor: pointer;
+	padding: 3px 10px;
+	font-size: 12px;
+	line-height: 24px;
+	white-space: nowrap;
+	position: relative;
+}
+
+.acLoading {
+	background-image: url('../common/css/images/indicator.gif')!important;
+	background-position: right center;
+	background-repeat: no-repeat; 
+}
+
+.acSelect {
+	background-color: Highlight;
+	color: HighlightText;
+}
+
+.acResults_page {
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+	padding: 1px;
+	padding: 5px;
+	background-color: #eff3f8 !important;
+	border-top: 1px solid #e1e1e1 !important;
+}
+
+.acResults_page .ui-separator {
+	border-color: #c9d4db;
+	margin: 1px 10px;
+	height: 18px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.acResults_page .ui-pg-input {
+	font-size: inherit;
+	width: 24px;
+	height: 20px;
+	border: 1px solid #ccc;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	text-align: center;
+}
+
+.acResults_page .ui-icon {
+	display: inline-block;
+	padding: 0;
+	cursor: pointer;
+	width: 24px;
+	height: 24px;
+	line-height: 22px;
+	text-align: center;
+	position: static;
+	float: none;
+	margin: 0 2px !important;
+	color: #808080;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	border-radius: 100%;
+	font-family: FontAwesome;
+}
+
+.acResults_page .ui-state-disabled {
+	color: #b0b0b0;
+	background-color: #f7f7f7;
+	border-color: #DDD;
+	-moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	-o-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+}
